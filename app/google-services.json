@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156245575504",
+    "project_id": "messmate-a041c",
+    "storage_bucket": "messmate-a041c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156245575504:android:0f25ff91d78ef1f7620e55",
+        "android_client_info": {
+          "package_name": "com.example.messmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzvSF_NCZGGl0IqmtwQm7y2RVuQfd49Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
