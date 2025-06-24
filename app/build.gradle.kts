@@ -43,7 +43,7 @@ android {
 }
 
 dependencies {
-    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+    implementation(libs.androidx.material.icons.extended)
 
 
 
@@ -65,6 +65,8 @@ dependencies {
     implementation(libs.ads.mobile.sdk)
     implementation(libs.generativeai)
     implementation(libs.vision.internal.vkp)
+    implementation(libs.androidx.foundation.android)
+    implementation(libs.androidx.material3.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
