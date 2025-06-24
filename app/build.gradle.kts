@@ -5,6 +5,8 @@ plugins {
     id("com.google.gms.google-services")
 }
 
+
+
 android {
     namespace = "com.example.messmate"
     compileSdk = 35
@@ -41,6 +43,10 @@ android {
 }
 
 dependencies {
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
+
+
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.runtime.livedata)
@@ -58,6 +64,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.ads.mobile.sdk)
     implementation(libs.generativeai)
+    implementation(libs.vision.internal.vkp)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

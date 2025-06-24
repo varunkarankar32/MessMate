@@ -118,6 +118,21 @@ fun LoginScreen(
                 .clickable(onClick =onNavigateToSignUp )
                 .padding(top = 8.dp)
         )
+        Button(
+            onClick = {
+
+                        onLoginSuccess()
+
+
+
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(50.dp),
+            shape = RoundedCornerShape(12.dp)
+        ) {
+            Text("Admin access", style = MaterialTheme.typography.titleMedium)
+        }
     }
 
 }
